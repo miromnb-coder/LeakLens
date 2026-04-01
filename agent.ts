@@ -40,7 +40,7 @@ export async function runAgent(input: {
 }): Promise<AgentResult> {
   const content: Array<
     | { type: "input_text"; text: string }
-    | { type: "input_image"; image_url: string; detail: "low" | "high" | "auto" }
+    | { type: "input_image"; image_url: string; detail: "low" | "high" | "auto";
   > = [
     {
       type: "input_text",
